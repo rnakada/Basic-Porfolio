@@ -1,0 +1,128 @@
+
+/*
+==========
+body
+==========
+*/
+
+body {
+    background: #ffffff;
+    border-color: #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/felt.png");
+    margin-left: 200px;
+}
+
+/*
+==========
+header
+==========
+*/
+
+header {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#line {
+    width: 960px;
+    height: 3px;
+    background: black;
+    margin-left: -100px;
+}
+
+.name {
+    text-align: center;
+    background: blue;
+    font-size: 50px;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border: 20px ;
+    border-color: #cccccc;
+    margin-left: -50px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+
+.links {
+    text-align: center;
+    font-size: 15px;
+    width: 300px;
+    position: relative;
+    left: 600px;
+    bottom: 60px;
+}
+
+.space a {
+    margin: 10px;
+    color: black;
+}
+
+/*
+==========
+section
+==========
+*/
+
+.about {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: -10px;
+}
+
+.line-2 {
+    width: 900px;
+    height: 3px;
+    background: blue;
+    margin-left: -55px;
+}
+
+.line-3 {
+    width: 900px;
+    height: 3px;
+    background: black;
+    margin-left: -55px;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: -50px;
+}
+
+.text {
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+    width: 600px;
+    height: 400px;
+    margin-left: 250px;
+    margin-bottom: 500px;
+    margin-top: -330px;
+}
+
+/*
+==========
+footer
+==========
+*/
+
+.copyright {
+    color: blue;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 50px;
+    margin-left:400px;
+}
+
+.footer {
+    background: black;
+    width: 960px;
+    height: 100px; 
+    margin-left: -100px;  
+    padding: 10px;
+}
