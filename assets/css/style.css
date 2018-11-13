@@ -16,6 +16,10 @@ html, body {
     position: absolute;
 }
 
+h1 {
+    color:#4aaaa5;
+}
+
 /*
 ==========
 body
@@ -43,21 +47,20 @@ header {
 #line {
     width: 960px;
     height: 3px;
-    background: black;
+    background: #777777;
     margin-left: -100px;
 }
 
 .name {
     text-align: center;
-    background: blue;
-    font-size: 50px;
-    color: black;
-    width: 500px;
+    background: #4aaaa5;
+    font-size: 30px;
+    color: #ffffff;
+    width: 300px;
     padding: 20px;
     border: 20px ;
     border-color: #cccccc;
-    margin-left: -50px;
-    margin-top: -20px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
@@ -67,40 +70,40 @@ header {
     width: 300px;
     position: relative;
     left: 600px;
-    bottom: 60px;
+    bottom: 45px;
 }
 
 .space a {
     margin: 10px;
-    color: black;
+    color: #777777;
 }
 
 /*
 ==========
-section
+index section
 ==========
 */
 
-.about {
+.section {
     text-align: center;
-    color: black;
-    font-size: 25px;
+    color: #4aaaa5;
+    font-size: 20px;
     width: 200px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: -10px;
 }
 
 .line-2 {
     width: 900px;
     height: 3px;
-    background: blue;
+    background: #4aaaa5;
     margin-left: -55px;
 }
 
 .line-3 {
     width: 900px;
     height: 3px;
-    background: black;
+    background: #777777;
     margin-left: -55px;
 }
 
@@ -108,7 +111,7 @@ section
     width: 300px;
     height: 300px;
     margin-top: 50px;
-    margin-left: -50px;
+    margin-left: -70px;
 }
 
 .text {
@@ -117,9 +120,7 @@ section
     font-size: 20px;
     width: 600px;
     height: 400px;
-    margin-left: 250px;
-    margin-bottom: 500px;
-    margin-top: -330px;
+    margin: -320px 250px;
 }
 
 /*
@@ -129,17 +130,91 @@ footer
 */
 
 .footer {
-    background: black;
+    background: #666666;
     width: 960px;
-    border: 5px solid blue;   
-    margin-left: -100px;
+    height: 70px;
+    border-top: 5px solid #4aaaa5;
+    margin-left: -100px;   
+    margin-bottom: -200px;
 }
 
 .copyright {
-    color: blue;
-    width: 40px;
-    font-size: 20px;
-    text-align: center;
-    margin-left: 600px;
-    margin-top: 100px;
+    margin-left: 550px;
 }
+
+/*
+==========
+Portfolio
+==========
+*/
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.pics {
+    padding: 10px;
+    margin-top: 15px;
+    margin-left:15px;
+    width: 300px;
+    height: 200px;
+}
+
+.snow {
+    background: #4aaaa5;
+    color: white;
+    width: 280px;
+    padding: 10px;
+    position: absolute;
+    top: 360px;
+    left: 15px;   
+}
+
+.lake {
+    background: #4aaaa5;
+    color: white;
+    width: 280px;
+    padding: 10px;
+    position: absolute;
+    top: 360px;
+    right: 266px;   
+}
+
+.ocean {
+    background: #4aaaa5;
+    color: white;
+    width: 280px;
+    padding: 10px;
+    position: absolute;
+    bottom: 310px;
+    left: 15px;     
+}
+
+.field {
+    background: #4aaaa5;
+    color: white;
+    width: 280px;
+    padding: 10px;
+    position: absolute;
+    bottom: 310px;
+    right: 266px;   
+}
+
+.mountain {
+    background: #4aaaa5;
+    color: white;
+    width: 280px;
+    padding: 10px;
+    position: absolute;
+    bottom: 90px;
+    left: 15px;   
+}
+
+
