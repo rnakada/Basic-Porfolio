@@ -62,6 +62,7 @@ header {
     border-color: #cccccc;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-left: -80px;
 }
 
 .links {
@@ -71,6 +72,7 @@ header {
     position: relative;
     left: 600px;
     bottom: 45px;
+    margin-left: -50px;
 }
 
 .space a {
@@ -121,6 +123,7 @@ index section
     width: 600px;
     height: 400px;
     margin: -320px 250px;
+    margin-left: 260px;
 }
 
 /*
