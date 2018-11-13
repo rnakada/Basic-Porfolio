@@ -6,11 +6,15 @@ html, body {
 
 #container {
     min-height: 100%;
+    position: relative;
+    height: 100%;
     margin-bottom: -50px;
 }
 
 #footer {
-    height:50px;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
 }
 
 h1 {
@@ -140,6 +144,7 @@ footer
 
 .copyright {
     margin-left: 550px;
+    color: lightgray;
 }
 
 /*
@@ -166,3 +171,17 @@ Portfolio
     height: 200px;
 }
 
+/*
+==========
+contact
+==========
+*/
+
+.contact {
+    width: 800px;
+    height: 500px;
+    padding-top: 20px ;
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
