@@ -1,3 +1,9 @@
+/*
+==========
+Page
+==========
+*/
+
 html, body {
     height: 100%;
     margin: 0;
@@ -9,61 +15,63 @@ html, body {
     position: relative;
     height: 100%;
     margin-bottom: -50px;
+    max-width: 960px;
+    margin: auto;
 }
 
 #footer {
     bottom: 0;
-    width: 100%;
+    max-width: 100%;
     height: 50px;
+    margin: auto;
 }
 
-h1 {
-    color:#4aaaa5;
+header {
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
-
-/*
-==========
-body
-==========
-*/
-
 body {
     background: #ffffff;
     border-color: #dddddd;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("../images/felt.png");
-    margin-left: 200px;
 }
 
 /*
 ==========
-header
+header / section for 3 websites
 ==========
 */
 
-header {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-#line {
-    width: 960px;
-    height: 3px;
-    background: #777777;
-    margin-left: -100px;
+.top-page {   
+    position: relative;
+    bottom: 0;
+    background: #ffffff;
+    font-size: 25px;
+    color: black;   
+    border-bottom: 3px solid #777777;
+    margin-bottom: 100px;
+    padding-top: px;
+    margin-top: -30px;
 }
 
 .name {
-    text-align: center;
+    height: 100px;
     background: #4aaaa5;
-    font-size: 30px;
-    color: #ffffff;
     width: 300px;
-    padding: 20px;
-    border: 20px ;
-    border-color: #cccccc;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: -80px;
+    text-align: center;
+    position: relative;
+    left: 280px;
+    padding-top: 1px;
+}
+
+.section-title {
+    text-align: left;
+    color: #4aaaa5;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 5px;
+    border-bottom: 3px solid #777777;
 }
 
 .links {
@@ -71,60 +79,14 @@ header {
     font-size: 15px;
     width: 300px;
     position: relative;
-    left: 600px;
-    bottom: 45px;
-    margin-left: -50px;
+    float: right;
+    bottom: 150px;
+    right: 300px;
 }
 
 .space a {
-    margin: 10px;
+    margin: 15px;
     color: #777777;
-}
-
-/*
-==========
-index section
-==========
-*/
-
-.section {
-    text-align: center;
-    color: #4aaaa5;
-    font-size: 20px;
-    width: 200px;
-    margin-top: 50px;
-    margin-left: -10px;
-}
-
-.line-2 {
-    width: 900px;
-    height: 3px;
-    background: #4aaaa5;
-    margin-left: -55px;
-}
-
-.line-3 {
-    width: 900px;
-    height: 3px;
-    background: #777777;
-    margin-left: -55px;
-}
-
-.img {
-    width: 300px;
-    height: 300px;
-    margin-top: 50px;
-    margin-left: -70px;
-}
-
-.text {
-    text-align: justify;
-    color: black;
-    font-size: 20px;
-    width: 600px;
-    height: 400px;
-    margin: -320px 250px;
-    margin-left: 260px;
 }
 
 /*
@@ -135,16 +97,47 @@ footer
 
 .footer {
     background: #666666;
-    width: 960px;
-    height: 70px;
-    border-top: 5px solid #4aaaa5;
-    margin-left: -100px;
-    
+    width: 100%;
+    height: 50px;
+    border-top: 3px solid #4aaaa5;
+    padding: 15px;
 }
 
 .copyright {
-    margin-left: 550px;
     color: lightgray;
+    text-align: center;
+}
+
+/*
+==========
+index.html
+==========
+*/
+
+.about-box {
+    background:white;
+    height: 600px;
+}
+
+.quote {
+    text-align: center;
+}
+
+.img {
+    width: 300px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.text {
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+    width: 600px;
+    height: 400px;
+    float: right;
+    margin-right: 20px;
 }
 
 /*
@@ -153,35 +146,84 @@ Portfolio
 ==========
 */
 
+.footer1 {
+    position: relative;
+    margin-top: 40px;
+    top: 400px;
+}
+
+.portfolio-box {
+    position: relative;
+    bottom: 30px;
+    background:white;
+    height: 1100px;
+}
+
 .column {
     float: left;
     padding: 0;
 }
 
 .row {
-    display: flex;
+    display: inline-block;
 }
 
-.pics {
+.pics {  
     position: relative;
+    width: 100%;
+    height: 100%;
     padding: 10px;
-    margin-top: 15px;
-    margin-left:15px;
-    width: 300px;
-    height: 200px;
+    top: 15px;
+    left: 10px;
+}
+
+.box1 {
+    position: absolute;
+    background: #4aaaa5;
+    text-align:center;
+    bottom: 25px;
+    left: 10px;
+    width: 200px;
+    color: white;
 }
 
 /*
 ==========
-contact
+contact.html
 ==========
 */
 
+.contact-box {
+    background:white;
+    height: 600px;
+}
+
 .contact {
-    width: 800px;
+    width: 400px;
     height: 500px;
     padding-top: 20px ;
-    background: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 0;
+    margin: 15px 0;
+    box-sizing: border-box;
+}
+
+.message input[type=text] {
+    height: 180px;
+    width: 920px;
+}
+
+input[type=submit] {
+    width: 120px;
+    height: 40px;
+    float: right;
+    position: relative;
+    left: 120px;
+    margin-top: 15px;
+    background: #4aaaa5;
+    color: white;
 }
